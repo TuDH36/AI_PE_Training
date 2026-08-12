@@ -1,0 +1,8 @@
+# Repository này chỉ công bố notebook chính và tài liệu dự án.
+# Mặc định bỏ qua toàn bộ file/thư mục ở thư mục gốc.
+/*
+
+# Các file trọng tâm được phép đưa lên Git.
+!/.gitignore
+!/README.md
+!/Data_Processing.ipynb
