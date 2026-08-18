@@ -6,3 +6,8 @@
 !/.gitignore
 !/README.md
 !/Data_Processing.ipynb
+
+# Từ điển và model PE64 dùng bởi notebook chính.
+!/PE64Section
+!/PE64DICT
+!/CYAIPE64.txt
