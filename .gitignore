@@ -1,13 +1,37 @@
-# Repository này chỉ công bố notebook chính và tài liệu dự án.
+# Repository này chỉ công bố mã nguồn quan trọng, từ điển đặc trưng và model.
 # Mặc định bỏ qua toàn bộ file/thư mục ở thư mục gốc.
 /*
 
 # Các file trọng tâm được phép đưa lên Git.
 !/.gitignore
 !/README.md
-!/Data_Processing.ipynb
+!/AGENTS.md
 
-# Từ điển và model PE64 dùng bởi notebook chính.
-!/PE64Section
+# Notebook (bản đưa lên Git đã được xoá output để tránh phình dung lượng).
+!/Data_Processing.ipynb
+!/Data_Processing1.ipynb
+!/Data_ProcessingNET.ipynb
+!/Refit_CYAIPE64NEW.ipynb
+
+# Script tiện ích.
+!/feature_importance.py
+!/feature_importance_NEW.py
+!/fi_new.py
+!/parse_sample.py
+!/test.py
+!/test2.py
+
+# Từ điển đặc trưng và section dùng bởi notebook.
+!/PE32D
+!/PE32DICT
+!/PE32Section
+!/PE64D
 !/PE64DICT
+!/PE64Section
+!/PENetD
+!/PENETDICT
+!/PENETSection
 !/CYAIPE64.txt
+
+# Model LightGBM đã huấn luyện.
+!/*.mdl
